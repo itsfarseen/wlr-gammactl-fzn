@@ -1,0 +1,16 @@
+{
+	"project_root": ".",
+	"cc": "gcc",
+	"cflags": "",
+	"ldflags": "-lm",
+	"ignore_dirs": [
+		".git",
+		".ccls-cache"
+	],
+	"build_dir": "build",
+	"binary": "wlr-gammactl-fzn",
+	"dependencies": [
+		"wlroots",
+		"wayland-client"
+	]
+}
